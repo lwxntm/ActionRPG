@@ -34,7 +34,7 @@ public class Player : KinematicBody2D
 			velocity = velocity.MoveToward(Vector2.Zero, FRICTION * delta);
 
 		}
-		GD.Print(velocity);
+		//GD.Print(velocity);
 		//velocity = inputVector.Length() > 0 ? inputVector*acceleration*delta : Vector2.Zero;
 
 		velocity = MoveAndSlide(velocity);
